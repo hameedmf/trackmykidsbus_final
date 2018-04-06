@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/8.3.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   '--prefix',
+1 verbose cli   '/Users/rayab/Desktop/trackmykidsbusv2/firebaseServer/functions',
+1 verbose cli   'run',
+1 verbose cli   'lint' ]
+2 info using npm@5.6.0
+3 info using node@v8.3.0
+4 verbose run-script [ 'prelint', 'lint', 'postlint' ]
+5 info lifecycle functions@~prelint: functions@
+6 info lifecycle functions@~lint: functions@
+7 verbose lifecycle functions@~lint: unsafe-perm in lifecycle true
+8 verbose lifecycle functions@~lint: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/rayab/Desktop/trackmykidsbusv2/firebaseServer/functions/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+9 verbose lifecycle functions@~lint: CWD: /Users/rayab/Desktop/trackmykidsbusv2/firebaseServer/functions
+10 silly lifecycle functions@~lint: Args: [ '-c', 'eslint .' ]
+11 silly lifecycle functions@~lint: Returned: code: 1  signal: null
+12 info lifecycle functions@~lint: Failed to exec lint script
+13 verbose stack Error: functions@ lint: `eslint .`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:285:16)
+13 verbose stack     at emitTwo (events.js:125:13)
+13 verbose stack     at EventEmitter.emit (events.js:213:7)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at emitTwo (events.js:125:13)
+13 verbose stack     at ChildProcess.emit (events.js:213:7)
+13 verbose stack     at maybeClose (internal/child_process.js:927:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+14 verbose pkgid functions@
+15 verbose cwd /Users/rayab/Desktop/trackmykidsbusv2/firebaseServer
+16 verbose Darwin 16.7.0
+17 verbose argv "/usr/local/Cellar/node/8.3.0/bin/node" "/usr/local/bin/npm" "--prefix" "/Users/rayab/Desktop/trackmykidsbusv2/firebaseServer/functions" "run" "lint"
+18 verbose node v8.3.0
+19 verbose npm  v5.6.0
+20 error code ELIFECYCLE
+21 error errno 1
+22 error functions@ lint: `eslint .`
+22 error Exit status 1
+23 error Failed at the functions@ lint script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+21 verbose exit [ 1, true ]
